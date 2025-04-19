@@ -1,0 +1,76 @@
+create index. html
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lsec — Smart. Simple. Secure.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    header {
+      margin-top: 2rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: 0.5rem auto 1rem auto;
+    }
+    .btn {
+      background-color: #ffffff;
+      color: #000;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+    .section {
+      margin-top: 3rem;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/100x100.png?text=Lsec" alt="Lsec Logo" style="border-radius: 50px;" />
+    <h1>Lsec</h1>
+    <p><em>Smart. Simple. Secure.</em></p>
+  </header>  <div class="section">
+    <h2>About Me</h2>
+    <p>I’m a teenage ethical hacker from South Africa, building Lsec to help secure the internet — one vulnerability at a time. I offer free vulnerability scans for small businesses and developers looking to harden their apps or websites.</p>
+  </div>  <div class="section">
+    <h2>Services</h2>
+    <p>
+      - Website & Mobile App Recon<br>
+      - Basic Penetration Testing<br>
+      - Bug Bounty Submissions<br>
+      - Simple Security Reports
+    </p>
+  </div>  <div class="section">
+    <h2>Contact Me</h2>
+    <p>Need a scan or want to collaborate? Reach out:</p>
+    <a class="btn" href="mailto:cingomartin2@gmail.com">Email Lsec</a>
+  </div>  <footer>
+    &copy; 2025 Lsec47. Stay sharp. Stay secure.
+  </footer>
+</body>
+</html>
